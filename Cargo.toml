@@ -1,0 +1,14 @@
+[package]
+name = "http_input"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytes = "1.6.0"
+http = "1.1.0"
+http-body-util = "0.1.2"
+hyper = { version = "1.3.1", features = ["client", "http2"] }
+hyper-tls = "0.6.0"
+hyper-util = "0.1.6"
+reqwest = "0.12.5"
+tokio = { version = "1.38.0", features = [] }
